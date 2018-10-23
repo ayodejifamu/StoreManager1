@@ -1,0 +1,60 @@
+h1{
+	font-size: 25px;
+	font-family: calibri;
+	color: #002933;
+	position: absolute;
+    top: 17%;
+	right:46%;
+}
+.Container{
+	background-color:#00b8e6;
+	position: absolute;
+    top: 25%;
+	right:33%;
+    width: 35%;
+    text-align: center;
+    font-size: 18px;
+	border-radius:20px;
+}
+form{
+	color: #002933;
+	background-color:#edf9f7;
+	font-family: calibri;
+}
+.cancelbtn{
+	background-color:#e52020;
+	padding: 14px 20px;
+	cursor: pointer;
+	border-radius:25px;
+    margin: 8px 0;
+    border: none;
+    font-family: calibri;
+    font-size: 14px;
+}
+.enter{
+	background-color:#4CAF50;
+	padding: 14px 20px;
+	cursor: pointer;
+	border-radius:25px;
+	margin: 8px 0;
+    border: none;
+    font-family: calibri;
+    font-size: 14px;
+}
+.cancelbtn:hover {
+    opacity: 0.8;
+}
+.enter:hover {
+    opacity: 0.8;
+}
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	color: #32868c;
+	font-family: Arial;
+	border-radius:20px;
+}
