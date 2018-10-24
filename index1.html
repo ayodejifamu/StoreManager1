@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New product form</title>
+<link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+<body>
+<div class="sidenav">
+	  <a href="StoreManagerProfilePage.html">My Info</a>
+	  <a href="">Sales</a>
+	  <a href="StoreManagerProductList.html">Products Management</a>
+	  <a href="StoreManagerAttList.html">Attendant Manager</a>
+	  <a href="StoreManagerSalesRecords.html">Sales records</a>
+	  <a href="StoreManagerlogin.html">Logout</a>
+</div>
+<div class="main">
+<div class="container">
+  <form>
+    <label for="pname">Product name</label>
+    <input type="text" id="pname" name="productname" placeholder="name..">
+
+    <label for="prdid">ProductID</label>
+    <input type="text" id="prdid" name="productid" placeholder="ID..">
+	
+	<label for="price">Price</label>
+    <input type="text" id="price" name="productprice" placeholder="price..">
+
+    <label for="category">category</label>
+    <select id="category" name="category">
+      <option value="consumable">Consumable</option>
+      <option value="nonconsumable">Nonconsumable</option>
+    </select>
+
+    <label for="description">Description</label>
+    <textarea id="description" name="description" placeholder="Product description.."></textarea>
+
+    <input type="submit" value="Add">
+  </form>
+</div>
+</div>
+</body>
+</html>
